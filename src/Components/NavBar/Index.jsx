@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import Sa from "../../assets/images/sa.png"
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -66,7 +68,7 @@ export default function NavBar( {pokemonFilter} ) {
             >
               <MenuIcon />
 
-              <Box component="img" src="/public/sa.png" height='1.6em' marginLeft="1em" />
+              <Box component="img" src={Sa} height='1.6em' marginLeft="1em" />
             </IconButton>
 
 
